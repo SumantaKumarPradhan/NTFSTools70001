@@ -5,4 +5,8 @@ public class NetBankingService {
 	public String transferMoney(long srcAccount,long destAmount,String ifscode,double amt) {
 		return amt+" is transfering from "+srcAccount+" to "+destAmount;
 	}
+	
+	public String transferMoneyUsingIMPS(long srcAccount,long destAmount,String ifscode,double amt) {
+		return amt+" is transfering from "+srcAccount+" to "+destAmount+"Using IMPS";
+	}
 }
